@@ -1,4 +1,5 @@
 #include <stdio.h>
+//Criar uma função que gera uma lista de fibonacci a partir uma quantidade de números de elementos
 main(){
 	int N, num, numA, numB, i;
 	printf("Digite quantos termos devem aparecer.\n");
