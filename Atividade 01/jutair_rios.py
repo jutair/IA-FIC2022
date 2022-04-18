@@ -258,7 +258,7 @@ def numpy_seno(inicial, final, n_elementos):
     ### Seu código inicia aqui ###	
     import random
     #np.random.seed(0)
-    n_random = np.linspace(inicial, final, num=11)
+    n_random = np.linspace(inicial, final, num=n_elementos)
     #print (n_random)
     n_seno = np.sin(n_random)
     vetor = n_seno
